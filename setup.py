@@ -23,7 +23,7 @@ setup(
     package_dir={"": "qcge"},
     packages=find_packages(where="qcge"),
     url="https://github.com/devilkiller-ag/Quantum-Circuit-Game-Engine",
-    install_requires=["pygame", "qiskit>=0.44", "numpy", "twine"],
+    install_requires=["pygame", "qiskit>=0.44,<1", "numpy", "twine"],
     keywords=["quantum circuit game engine", "quantum circuit pygame", "quantum circuit",
                 "qcge", "quantum game", "pygame"],
     classifiers=[
